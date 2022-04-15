@@ -1,3 +1,5 @@
+> **_NOTE:_**  Ths project is archived. All development has stopped.
+
 This is a toy library to match regular expression in ocaml. Real regular expression library such as [pcre](http://pcre.org), [re2](http://code.google.com/p/re2/) or [tre](http://laurikari.net/tre/) are big and complex this is not meant to be used as a serious library. The plan is to use memoization on top of Bzrowosky derivatives to reach an asymptotic O(1) behaviour (derivatives can be used to constructed DFAs). Not quite sure yet how to tie tagged transitions in all this.
 
 Interesting articles:
